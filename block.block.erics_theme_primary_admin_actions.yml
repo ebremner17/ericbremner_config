@@ -1,0 +1,20 @@
+uuid: 15fd6d6b-5cef-409b-b301-6436b8b35d6e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - erics_theme
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: erics_theme_primary_admin_actions
+theme: erics_theme
+region: highlighted
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

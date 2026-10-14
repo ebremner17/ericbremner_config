@@ -1,0 +1,14 @@
+uuid: 35b1237e-85d3-4356-9638-2787b8e726de
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.canvas_editor
+  module:
+    - user
+id: user_add_role_action.canvas_editor
+label: 'Add the Canvas Editor role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: canvas_editor

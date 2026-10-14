@@ -1,0 +1,14 @@
+uuid: 9be74e06-e9ed-4104-97c0-7f61d101b94d
+langcode: en
+status: true
+dependencies:
+  module:
+    - canvas
+id: canvas_editor
+label: 'Canvas Editor'
+weight: 4
+is_admin: false
+permissions:
+  - 'create canvas_page'
+  - 'delete canvas_page'
+  - 'edit canvas_page'

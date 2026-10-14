@@ -1,0 +1,14 @@
+uuid: b62108a0-bea1-4637-bdb9-f8aa5f44ec31
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.canvas_editor
+  module:
+    - user
+id: user_remove_role_action.canvas_editor
+label: 'Remove the Canvas Editor role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: canvas_editor
