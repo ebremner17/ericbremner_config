@@ -1,0 +1,12 @@
+uuid: 3ee683c4-0d22-4b2c-a1db-88f3844b11a7
+langcode: en
+status: true
+dependencies: {  }
+label: 'EB Slideshow mobile'
+id: eb_crop_slideshow_mobile
+description: 'Crop for the Slideshow component on narrow screens.'
+aspect_ratio: '4:3'
+soft_limit_width: 800
+soft_limit_height: 600
+hard_limit_width: null
+hard_limit_height: null

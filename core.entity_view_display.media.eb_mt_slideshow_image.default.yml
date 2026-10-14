@@ -1,0 +1,41 @@
+uuid: 35f534b3-17cc-405e-8451-7cd23a0e7c98
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.eb_mt_slideshow_image.field_media_image
+    - image.style.thumbnail
+    - media.type.eb_mt_slideshow_image
+  module:
+    - image
+id: media.eb_mt_slideshow_image.default
+targetEntityType: media
+bundle: eb_mt_slideshow_image
+mode: default
+content:
+  field_media_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: large
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 5
+    region: content
+hidden:
+  created: true
+  name: true
+  uid: true
