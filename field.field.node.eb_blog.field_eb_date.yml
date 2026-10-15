@@ -1,0 +1,23 @@
+uuid: de9d2f91-b146-4489-878b-55456a708230
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_eb_date
+    - node.type.eb_blog
+  module:
+    - datetime
+_core:
+  default_config_hash: 070j2bAEpKbnL-IaABFCdp7-FUjZEzCpIMmL1wVK_4w
+id: node.eb_blog.field_eb_date
+field_name: field_eb_date
+entity_type: node
+bundle: eb_blog
+label: Date
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

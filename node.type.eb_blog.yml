@@ -1,0 +1,13 @@
+uuid: 23c8c805-0008-4b64-a543-491854f106e1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: SRYrsCFm0Ablk9M_PbICdSkMy_3i2KUa6BN6Y-q5DUk
+name: Blog
+type: eb_blog
+description: 'A blog post.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

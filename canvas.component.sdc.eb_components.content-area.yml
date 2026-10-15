@@ -1,0 +1,21 @@
+uuid: 64d70349-2c8e-4cdb-a81f-8dffe0b9dc58
+langcode: en
+status: true
+dependencies:
+  module:
+    - eb_components
+active_version: d54b181baa9953d9
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions: {  }
+    fallback_metadata:
+      slot_definitions:
+        content:
+          title: Content
+          description: 'The per-entity Canvas content.'
+label: 'Content Area'
+id: sdc.eb_components.content-area
+provider: eb_components
+source: sdc
+source_local_id: 'eb_components:content-area'

@@ -15,6 +15,7 @@ module:
   datetime: 0
   dblog: 0
   dynamic_page_cache: 0
+  eb_blog: 0
   eb_components: 0
   eb_config: 0
   editor: 0
