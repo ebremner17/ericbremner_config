@@ -1,0 +1,8 @@
+uuid: ac82fef7-a73a-4b9f-8920-dbe2efa478ed
+langcode: en
+status: true
+dependencies: {  }
+id: eb_blog_listing_date
+label: 'EB Blog listing date'
+locked: false
+pattern: 'l, F j, Y'
