@@ -41,6 +41,7 @@ module:
   parenting_schedule: 0
   path: 0
   path_alias: 0
+  school_schedule: 0
   system: 0
   taxonomy: 0
   text: 0
