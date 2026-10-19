@@ -1,0 +1,71 @@
+uuid: 0b2ebf14-a35f-4bd4-af9a-04d7e3e6b161
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.eb_mt_slideshow_image.field_media_image
+    - field.field.media.image.field_media_image
+    - filter.format.eb_raw_html
+    - image.style.canvas_parametrized_width
+    - media.type.eb_mt_slideshow_image
+    - media.type.image
+  module:
+    - eb_components
+    - file
+    - media
+    - media_library
+    - options
+    - text
+active_version: 40ad14ec17af807c
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions:
+        image:
+          required: false
+          field_type: entity_reference
+          field_storage_settings:
+            target_type: media
+          field_instance_settings:
+            handler: 'default:media'
+            handler_settings:
+              target_bundles:
+                eb_mt_slideshow_image: eb_mt_slideshow_image
+                image: image
+          field_widget: media_library_widget
+          default_value: {  }
+          expression: 'ℹ︎entity_reference␟entity␜[␜entity:media:eb_mt_slideshow_image␝field_media_image␞␟{src↠src_with_alternate_widths,alt↠alt,width↠width,height↠height}][␜entity:media:image␝field_media_image␞␟{src↠src_with_alternate_widths,alt↠alt,width↠width,height↠height}]'
+          derived_schema_metadata: {  }
+        html:
+          required: false
+          field_type: text_long
+          field_storage_settings: {  }
+          field_instance_settings:
+            allowed_formats:
+              - eb_raw_html
+          field_widget: text_textarea
+          default_value:
+            -
+              value: '<p>HTML content.</p>'
+              format: eb_raw_html
+          expression: ℹ︎text_long␟processed
+          derived_schema_metadata: {  }
+        image_position:
+          required: false
+          field_type: list_string
+          field_storage_settings:
+            allowed_values_function: canvas_load_allowed_values_for_component_prop
+          field_instance_settings: {  }
+          field_widget: options_select
+          default_value:
+            -
+              value: left
+          expression: ℹ︎list_string␟value
+          derived_schema_metadata: {  }
+    fallback_metadata:
+      slot_definitions: {  }
+label: 'Image + HTML'
+id: sdc.eb_components.image-html
+provider: eb_components
+source: sdc
+source_local_id: 'eb_components:image-html'
